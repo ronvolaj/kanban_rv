@@ -1,0 +1,4 @@
+# Einstellungen für Netlify (Hosting)
+[build]
+  command = "npm run build"   # so wird die App gebaut
+  publish = "build"           # hier liegt die fertige Seite

@@ -1,0 +1,10 @@
+/* Tailwind laden */
+@import 'tailwindcss';
+
+/* eigene Farben: daraus werden Klassen wie bg-sand, text-coal, bg-clay */
+@theme {
+	--color-sand: #f5f0e8;   /* Hintergrund */
+	--color-coal: #2b2622;   /* Text */
+	--color-clay: #b4532a;   /* Hauptfarbe (Terrakotta) */
+	--color-line: #e3dacb;   /* Ränder */
+}

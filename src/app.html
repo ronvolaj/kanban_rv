@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="de">
+	<head>
+		<!-- Umlaute richtig anzeigen -->
+		<meta charset="utf-8" />
+		<!-- richtige Größe auf dem Handy -->
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!-- Farbe der Browser-Leiste -->
+		<meta name="theme-color" content="#b4532a" />
+		<!-- Manifest: macht die App installierbar -->
+		<link rel="manifest" href="/manifest.webmanifest" />
+		<!-- Icon im Browser-Tab -->
+		<link rel="icon" href="/favicon.png" />
+		<!-- Titel im Browser-Tab -->
+		<title>Kanban</title>
+		<!-- hier fügt SvelteKit CSS und JS ein -->
+		%sveltekit.head%
+	</head>
+	<!-- Hintergrund- und Textfarbe der ganzen Seite -->
+	<body class="bg-sand text-coal">
+		<!-- hier kommt die App hin -->
+		<div style="display: contents">%sveltekit.body%</div>
+	</body>
+</html>

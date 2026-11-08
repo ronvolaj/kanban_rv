@@ -1,0 +1,10 @@
+# Ordner und Dateien, die NICHT zu Git hinzugefügt werden
+
+# installierte Pakete (werden mit "npm install" neu erstellt)
+node_modules
+# temporäre Dateien von SvelteKit
+.svelte-kit
+# fertig gebaute Seite (wird mit "npm run build" neu erstellt)
+build
+# versteckte Mac-Datei
+.DS_Store
